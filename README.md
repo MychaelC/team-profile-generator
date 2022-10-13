@@ -11,7 +11,7 @@
     License
 
 # Description
-This is a Node.js command-line application that takes in information about employees on a software engineering team and generates an HTML webpage that displays a short summary of each employee. The team profiles will include a manager, engineers, and interns. Depending on the role they will have unique data. The information will display in a responsive application.
+This is a Node.js command-line application that takes in information about employees on a software engineering team and generates an HTML webpage that displays a short summary of each employee. The team profiles will include a manager, engineers, and interns. Depending on the role they will have unique data. The application uses Jest for running the unit test and Inquirer for collecting input from the user. The information will display in a responsive application.
 
 # Installation
 Clone the project via the HTTP or SSH link in GitHub

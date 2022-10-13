@@ -262,7 +262,7 @@ function generateWebpage() {
     //Pass array into the function to generate content
     employeeProfiles = generatePage(employeeArr);
     //then generate HTML fs
-    fs.writeFile('./dist/Employees.html'), employeeProfiles, (err) => {
+    fs.writeFile(''), employeeProfiles, (err) => {
         if (err) throw new Error(err);
         //User alerted file is generated
         console.log(
