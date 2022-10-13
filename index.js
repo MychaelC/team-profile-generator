@@ -234,3 +234,41 @@ const promptIntern = () => {
         nextPrompt();
     });
 };
+
+//Generate HTML or add employee
+const nextPrompt = () => {
+    return inquirer
+    .prompt([
+        {
+            type: 'list',
+            name: 'nextSteps',
+            message: 'Please choose from one of the following:',
+            choices: ['Add an Engineer', 'Add an Intern', 'Finish building team'],
+        },
+    ])
+    .then((chosenStep) => {
+        if (chosenStep.nextSteps == 'Add an Engineer') {
+            promptEngineer();
+        } else if (chosenStep.nextSteps == 'Add an Intern') {
+            promptIntern();
+        } else {
+            generateWebpage();
+        }
+    });
+};
+
+//class obj for each employee
+function generateWebpage() {
+    //Pass array into the function to generate content
+    employeeProfiles = generatePage(employeeArr);
+    //then generate HTML fs
+    fs.writeFile('./dist/Employees.html'), employeeProfiles, (err) => {
+        if (err) throw new Error(err);
+        //User alerted file is generated
+        console.log(
+            'Your HTML has been created!'
+        );
+    }
+}
+
+promptManager().then(nextPrompt);
