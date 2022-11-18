@@ -1,5 +1,27 @@
 {
   "dependencies": {
-    "inquirer": "^8.2.4"
-  }
+    "inquirer": "^8.2.4",
+    "jest": "^29.3.1"
+  },
+  "name": "team-profile-generator",
+  "description": "# Table of Contents     Description     Installation     Usage     Testing     Links      Technology Used     Questions     License",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MychaelC/team-profile-generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MychaelC/team-profile-generator/issues"
+  },
+  "homepage": "https://github.com/MychaelC/team-profile-generator#readme"
 }
