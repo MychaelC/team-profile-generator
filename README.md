@@ -31,9 +31,9 @@ on the command line.
 
 # Link
 
-Example HTML HERE
+Example HTML [HERE]()
 
-Video Link HERE
+Video Link [HERE]()
 
 # Technology Used
     Node.js
@@ -43,7 +43,7 @@ Video Link HERE
 
 # Questions 
 
-If you have any additional questions please email me at: miketw1212@hotmail.com
+If you have any additional questions please email me at: miketw1212@hotmail.com or visit me on [GitHub]()
 
 # License
 

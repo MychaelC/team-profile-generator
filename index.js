@@ -262,13 +262,13 @@ function generateWebpage() {
     //Pass array into the function to generate content
     employeeProfiles = generatePage(employeeArr);
     //then generate HTML fs
-    fs.writeFile(''), employeeProfiles, (err) => {
+    fs.writeFile('./dist/team.html', employeeProfiles, (err) => {
         if (err) throw new Error(err);
         //User alerted file is generated
         console.log(
             'Your HTML has been created!'
         );
-    }
+    })
 }
 
 promptManager().then(nextPrompt);
