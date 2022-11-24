@@ -30,10 +30,11 @@ You will be able to test the application to ensure proper function using the Jes
 on the command line.
 
 # Link
+What it looks like ![screenshot](./assets/Screen%20Shot%202022-11-24%20at%2011.53.44%20AM.png)
 
-Example HTML [HERE]()
+Example HTML [HERE](./dist/team.html)
 
-Video Link [HERE]()
+Video Link [HERE](https://drive.google.com/file/d/1Cfvufxy1SqctHiSrs2Kcz_1OLTh9gasn/view)
 
 # Technology Used
     Node.js
@@ -43,7 +44,7 @@ Video Link [HERE]()
 
 # Questions 
 
-If you have any additional questions please email me at: miketw1212@hotmail.com or visit me on [GitHub]()
+If you have any additional questions please email me at: miketw1212@hotmail.com or visit me on [GitHub](https://github.com/MychaelC)
 
 # License
 
